@@ -87,7 +87,7 @@ width: auto;
 }
 .questions{
     color:rgb(17, 105, 183);
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman';
     
     max-width: auto;
     text-align:center;
@@ -100,7 +100,7 @@ width: auto;
 }
 .heading{
     color:rgb(17, 105, 183);
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman';
   
     max-width: auto;
     text-align:center;
@@ -111,7 +111,7 @@ width: auto;
 }
 .answers{
     color:rgb(17, 105, 183);
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman';
    
    margin-top: auto;
     max-width:auto;
