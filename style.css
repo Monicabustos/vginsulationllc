@@ -198,3 +198,42 @@ style{
     background-image: url('insulation.png');
 
 }
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: rgba(55, 143, 226, 0.418);
+    color:#0651ac;
+  }
+  .row {
+    color:#0651ac;
+    display: table;
+    clear: both;
+  
+    
+  }
+  .leftcolumn_2 {
+    color:#0651ac;
+    float: left;
+    width: 75%;
+  }
+  .card_2 {
+    background-color:  rgba(55, 143, 226, 0.418);
+    color:#0651ac;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .leftcolumn {
+    color:#0651ac;
+    float: left;
+    width: 75%;
+  }
+  .card {
+    background-color: rgba(55, 143, 226, 0.418);
+    color:#0651ac;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: : 70px;
+    
+  }
+  
