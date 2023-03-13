@@ -1,13 +1,9 @@
-/* Beginning of wallpaper */
-.wall{
-
-}
 
 
 /* Add a black background color to the top navigation */
 .topnav {
     position:relative;
-    background-color: #f7faff00;
+    background-color: #ffffff00;
     overflow:hidden;
     padding:50px;
     
@@ -73,47 +69,37 @@
     }
   }
 
-.intro{
-    color:rgb(255, 255, 255);
-    font-family:'Times New Roman';
-    max-width: auto;
-    text-align:center;
-    margin-top:6rem;
-    font-size: 32px;
-    padding:.5rem;
-    text-shadow: 2px 2px 5px red;
+.wrapper {
+   margin: 150px auto; 
+   width: auto;
+   margin-left: 20px;
+
 }
-.location{
-    color:rgb(255, 255, 255);
-    font-family:'Times New Roman';
-    max-width: auto;
-    text-align:center;
-    margin-top:5rem;
-    font-size: 32px;
-    padding:.5rem;
-    text-shadow: 2px 2px 5px red;
+.text-box h2{
+    font-size:larger;
+    text-align:justify;
+}
+.pic{
+    max-width:400px;
+    float:right;
+    margin-left: 60px;
 }
 
-.frontpage{
-    color:#ffffff;
-    font-family:'Times New Roman';
-    max-width: auto;
-    text-align:center;
-    margin-top: 6rem;
-    font-size: 32px;
-    padding:.5rem;
-    text-shadow: 2px 2px 5px red;
+.wrapper2{
+    margin: 150px auto;
+    width: auto;
 }
-.about{
-    color:rgb(255, 255, 255);
-    font-family:'Times New Roman';
-    max-width: auto;
-    text-align:center;
-    margin-top:6rem;
-    margin-bottom:0%;
-    font-size: 34px;
-    padding:.5rem;
-    text-shadow: 2px 2px 5px red;
+.text-box2 h1{
+    font-size:larger;
+    
+}
+.text-box2 h2{
+font-size: large;
+text-align: justify;
+}
+.pic2{
+    max-width: 400px;
+    float: left;
 }
 .socials{
     color:rgb(255, 255, 255);
