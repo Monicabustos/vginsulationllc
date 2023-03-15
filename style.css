@@ -299,7 +299,7 @@ style{
     --row-height:200px;
     box-sizing: border-box;
     padding:var(--gap);
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     grid-auto-rows: var(--row-height);
     gap: var(--gap);
