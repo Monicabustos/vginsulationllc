@@ -76,11 +76,14 @@
 
 }
 .text-box h2{
+  padding-top: 70px;
+  padding-bottom: 70px;
     font-size: 30px;
     margin-left: 45px;
 }
 .pic{
-   
+   padding-top: 70px;
+   padding-bottom: 70px;
     float:right;
     margin-left: 40px;
     margin-right: auto;
@@ -92,15 +95,19 @@
    
 }
 .text-box2 h1{
+  padding-top: 10 0px;
     margin-right: 40px;
     margin-left: left;
 }
 
 .text-box2 h2{
+  padding-bottom:70px;
 text-align: left;
 margin-right: 40px;
 }
 .pic2{
+  padding-top: 70px;
+  padding-bottom: 70px;
   margin-right: 40px;
     float: left;
     margin-left: auto;
@@ -311,12 +318,28 @@ object-fit: cover;
 }
 
 
-
-
 /* anything under 1024px */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1024px) {
   .image-grid{
     --num-cols: 2;
     --row-height: 100px
   }
+}
+
+.footer{
+  position:initial;
+  padding:150px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  
+}
+
+.workvid{
+  padding-top: 300px;
+  padding-bottom: 300px;
+  max-width:100%;
+  height:auto;
 }
