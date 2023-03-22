@@ -1,25 +1,25 @@
-/*background color */
-.back{
-  background-color: #ddd;
-}
+
+
 
 /* Add a black background color to the top navigation */
 .topnav {
     position:relative;
-    background-color: #ffffff00;
+    background-color:  rgba(56, 132, 208, 0.622);
     overflow:hidden;
-    padding:50px;
+    padding:20px;
+    border-bottom: 20px solid blue;
     
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #0011ff;
+    color: #000000;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
     font-size: 25px;
+    font-family: Georgia;
   }
   
   /* Change the color of links on hover */
@@ -39,7 +39,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: auto;
     
   }
   
@@ -79,11 +79,12 @@
 
 }
 .text-box h2{
-  padding-top: 70px;
+  padding-top: 125px;
   padding-bottom: 70px;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 45px;
-}
+    font-family: 'Times New Roman';}
+
 .pic{
    padding-top: 70px;
    padding-bottom: 70px;
@@ -98,7 +99,8 @@
    
 }
 .text-box2 h1{
-  padding-top: 10 0px;
+  padding-top: 65px;
+  margin-top: 20px;
     margin-right: 40px;
     margin-left: left;
 }
@@ -202,7 +204,7 @@ body{
     text-align: center;
     
 }
-main{
+.main{
     color: rgb(0, 0, 0);
     border-style:double;
     border-color: grey;
@@ -331,18 +333,27 @@ object-fit: cover;
 
 .footer{
   position:initial;
-  padding:150px;
+  padding:20px;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: rgba(56, 132, 208, 0.622);
   color: white;
+  border-top: 13px solid #ffffff;
   
 }
 
+
 .workvid{
-  padding-top: 300px;
+  padding-top: 150px;
   padding-bottom: 300px;
   max-width:100%;
   height:auto;
+}
+
+/* start to the reviews*/
+.rtitle{
+  text-align: center;
+  font-size:36px;
+  margin-bottom: 60px;
 }
