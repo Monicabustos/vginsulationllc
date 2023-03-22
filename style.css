@@ -1,4 +1,7 @@
-
+/*background color */
+.back{
+  background-color: #ddd;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -332,7 +335,7 @@ object-fit: cover;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: rgba(56, 132, 208, 0.622);
   color: white;
   
 }
