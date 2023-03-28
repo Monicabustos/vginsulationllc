@@ -7,7 +7,7 @@
     background-color:  rgba(56, 132, 208, 0.622);
     overflow:hidden;
     padding:20px;
-    border-bottom: 20px solid blue;
+    border-bottom: 20px solid rgb(0, 26, 173);
     
   }
   
@@ -73,6 +73,7 @@
   }
 
 .wrapper {
+  background: white;
    margin: 150px auto; 
    width: auto;
   
@@ -94,11 +95,14 @@
 }
 
 .wrapper2{
+  background:white;
+
     margin: 150px auto;
     width: auto;
    
 }
 .text-box2 h1{
+ 
   padding-top: 65px;
   margin-top: 20px;
     margin-right: 40px;
@@ -223,10 +227,8 @@ body{
 .faq{
     text-align: center;
 }
-style{
-    background-image: url('insulation.png');
 
-}
+
 .header {
     padding: 30px;
     font-size: 40px;
@@ -304,32 +306,16 @@ style{
       }
       
   }
+  /*review coding */
+  .image-grid {
   
-  .image-grid{
-    --gap: 10px;
-    --num-cols: 3;
-    --row-height:200px;
-    box-sizing: border-box;
-    padding:var(--gap);
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
-    gap: var(--gap);
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 60px;
   }
-.image-grid > img{
-width: 100%;
-height: 100;
-object-fit: cover;
-}
-
-
-/* anything under 1024px */
-@media screen and (max-width: 1024px) {
-  .image-grid{
-    --num-cols: 2;
-    --row-height: 100px
-  }
-}
 
 .footer{
   position:initial;
@@ -338,15 +324,15 @@ object-fit: cover;
   bottom: 0;
   width: 100%;
   background-color: rgba(56, 132, 208, 0.622);
-  color: white;
-  border-top: 13px solid #ffffff;
+  color:white;
+  border-top: 13px solid blue;
   
 }
 
 
 .workvid{
   padding-top: 150px;
-  padding-bottom: 300px;
+  padding-bottom: 200px;
   max-width:100%;
   height:auto;
 }
@@ -355,5 +341,14 @@ object-fit: cover;
 .rtitle{
   text-align: center;
   font-size:36px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+}
+.body1{
+  background: white;
+}
+body 
+{   
+    background-color:white;
+    margin: -19px 0 0 0; /*-19px here to remove white space on the very top of the page*/
+    width: 100%;  
 }
